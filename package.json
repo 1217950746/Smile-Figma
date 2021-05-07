@@ -1,0 +1,15 @@
+{
+    "name": "smile-figma",
+    "version": "1.0.0",
+    "description": "Smile Figma",
+    "main": "code.js",
+    "scripts": {
+        "watch": "tsc -p tsconfig.json --watch",
+        "build": "tsc -p tsconfig.json"
+    },
+    "author": "ONEO",
+    "license": "MIT",
+    "devDependencies": {
+        "@figma/plugin-typings": "^1.23.0"
+    }
+}
